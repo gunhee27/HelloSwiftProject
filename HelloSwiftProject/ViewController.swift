@@ -8,11 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBAction func changeLabel(_ sender: Any) {
+        lbl.text = "Hello, Swift"
+    }
+    @IBOutlet weak var lbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
 
 
 }
