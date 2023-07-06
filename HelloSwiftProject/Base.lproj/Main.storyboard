@@ -29,6 +29,9 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9Z-Gv-CXX">
                                 <rect key="frame" x="138" y="396" width="117" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1Jn-1Y-cZA"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,6 +43,7 @@
                             <constraint firstItem="c9Z-Gv-CXX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2BJ-KA-JYz"/>
                             <constraint firstItem="XqF-OL-8RW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="552-Hg-5Er"/>
                             <constraint firstItem="XqF-OL-8RW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="67R-dQ-9IX"/>
+                            <constraint firstItem="XqF-OL-8RW" firstAttribute="top" secondItem="c9Z-Gv-CXX" secondAttribute="bottom" constant="327" id="6ns-Rg-0sf"/>
                             <constraint firstItem="c9Z-Gv-CXX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jqi-1i-27V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XqF-OL-8RW" secondAttribute="trailing" constant="16" id="rhq-UW-pGj"/>
                         </constraints>
